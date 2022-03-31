@@ -1,0 +1,226 @@
+
+INTAN@ANTARI MINGW32 ~/Desktop (master)
+$ ls
+ 20161103_201549.jpg
+ AcroRd32.exe*
+ BT_21.40.5_64_Win8.1.exe*
+ BookMark.ini
+ CSCZSetupII.exe*
+ Chromium.lnk*
+'Condition Zero.lnk'*
+ Counter-Strike.lnk*
+'EXCEL - Shortcut.lnk'*
+'Epson L220.exe'*
+'HTTrack Website Copier.lnk'*
+'Internet Download Manager.lnk'*
+ KMPlayer.exe*
+'Microsoft Office Publisher  2007.lnk'*
+'New Microsoft Office Word Document.docx'
+'POW ERPNT - Shortcut.lnk'*
+ Paint.lnk*
+ Thumbs.db
+ WhatsApp.lnk*
+ Winamp.lnk*
+ desktop.ini
+ mplayerc.exe*
+ notepad-8-3.exe*
+'spss - Shortcut.lnk'*
+'~$PORAN PKL Khadijah Alliya Fidien_16.01.021.019 1.docx'
+'~$w Microsoft Office Word Document.docx'
+
+INTAN@ANTARI MINGW32 ~/Desktop (master)
+$ mkdir IntanJuwitaLestar
+
+INTAN@ANTARI MINGW32 ~/Desktop (master)
+$ cd IntanJuwitaLestari
+bash: cd: IntanJuwitaLestari: No such file or directory
+
+INTAN@ANTARI MINGW32 ~/Desktop (master)
+$ cd IntanJuwitaLestar
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ ls
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ mkdir IntanJuwitaLestari
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ ls
+IntanJuwitaLestari/
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ touch README.md
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ echo "Inisialisasi GIT Reposetori" > README.md
+
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git init
+Initialized empty Git repository in C:/Users/INTAN/Desktop/IntanJuwitaLestar/.git/
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git commit -m "Inisialisasi GIT Reposetori"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'INTAN@ANTARI.(none)')
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git branch cv
+fatal: not a valid object name: 'master'
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ touch cv.txt
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ echo "Ini adalah file cv" > cv.txt
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git commit -m "Inisialisasi cv"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'INTAN@ANTARI.(none)')
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ nano cv.txt
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git add .
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git commit -m "Universitas Teknologi Sumbawa"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'INTAN@ANTARI.(none)')
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ nano cv.txt
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git add .
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git commit -m "Universitas Teknologi Sumbawa"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'INTAN@ANTARI.(none)')
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ nano cv.txt
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git add .
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git commit -m "Mahasiswi UTS"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'INTAN@ANTARI.(none)')
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ echo "Halo perkenalkan halaman pertamaku >
+> Ini adalah update pertaman pada halaman master" > README.md
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git merge cv
+merge: cv - not something we can merge
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git remot add origin https://github.com/intanjuwwitalestari/tugas/Github
+git: 'remot' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git remot add origin https://github.com/intanjuwitalestari/tugas/github.git
+git: 'remot' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+INTAN@ANTARI MINGW32 ~/Desktop/IntanJuwitaLestar (master)
+$ git branch -m main
